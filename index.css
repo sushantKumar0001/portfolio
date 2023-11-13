@@ -1,0 +1,247 @@
+/* Reset some styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* General body styles */
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #ebdede;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+/* Navbar styles */
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 10px 20px 0px;
+}
+#ss{
+    border:solid rgb(195, 12, 12);
+    box-sizing: content-box;
+    margin-left: 500px;
+    height: auto;
+    border-radius: 50%;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+nav ul li {
+    display: inline-block;
+    text-align: center;
+    margin: 5px; 
+    padding: 0px 20px 0px 20px;
+  
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 1.2rem;
+    transition: color 0.3s;
+    
+}
+
+nav ul li a:hover {
+    color: #007BFF;
+}
+
+/* Interactive element styles */
+#element {
+    color: #007BFF;
+}
+.hey{
+    text-align: right;
+    background-color: #c1e1e6;
+    box-sizing: border-box;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    padding: 20px;
+    margin: 20px;
+}
+.hey ul{
+    list-style-type: none;
+    padding: 0;
+}
+.hey li{
+    
+    display: inline-block;
+    text-align: center;
+}
+.hey img{
+    margin-right: 700px;
+    border:solid rgb(187, 166, 99);
+    box-sizing: content-box;   
+    height: auto;
+    border-radius: 50%;
+
+}
+.hey h1{
+    color: rgb(145, 50, 169);
+    padding-right: 150px;
+}
+.hey h2{
+    color: rgb(119, 117, 224);
+    padding-top: 20px;
+    padding-right: 420px;
+}
+.hey h3{
+    color: rgb(187, 166, 99);
+    padding-right: 0px;
+}
+/* Main section styles */
+.main {
+    display: flex;
+    background-color: #c1e1e6;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    padding: 20px;
+    margin: 20px;
+}
+.btn{
+  
+    border: solid rgb(64, 42, 176);
+   
+}
+.leftSection {
+    width: 50%;
+    font-size: 1.5rem;
+}
+
+.rightSection {
+    width: 50%;
+    text-align: center;
+}
+
+.rightSection img {
+    max-width: 100%;
+    height: auto;
+}
+
+.firstSection {
+    text-align: center;
+    padding: 40px 0;
+}
+
+.firstSection .purple {
+    color: #800080;
+}
+
+.firstSection .buttons {
+    margin-top: 20px;
+}
+
+/* Skill section styles */
+.secondSection {
+    text-align: center;
+    padding: 40px 0;
+}
+
+.secondSection .text-gray {
+    color: #808080;
+}
+
+.secondSection h2 {
+    font-size: 2rem;
+    margin-top: 20px;
+    color: #333;
+}
+
+.box {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-top: 30px;
+}
+
+.vertical {
+    background-color: #c1e1e6;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    margin: 20px;
+    padding: 20px;
+    width: 300px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+}
+
+.vertical:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.vertical img {
+    max-width: 100%;
+    height: auto;
+}
+
+.vertical-title {
+    font-size: 1.5rem;
+    margin-top: 10px;
+}
+
+.vertical-desc {
+    font-size: 1rem;
+    margin-top: 10px;
+}
+
+footer {
+    background-color: #e4f3ce;
+    padding: 23px;
+
+
+}
+.footer h3 {
+    color: rgb(126, 191, 163);
+}
+.footer {
+
+    display: flex;
+    padding: 23px 122;
+    justify-content: space-evenly;
+
+
+}
+
+.footer ul {
+    list-style: none;
+}
+
+.footer>div {
+    width: 223px;
+}
+
+footer .footer-rights {
+    text-align: center;
+    color: rgb(200, 84, 84);
+    padding: 12px 0;
+}
+
+.footer-second a {
+    color: rgb(64, 42, 176);
+}
+.footer-third p {
+    color: rgb(64, 42, 176);
+}
+
+.footer-fourth a {
+    color: rgb(76, 53, 168);
+}
+/* Add styles for the About and Contact sections similarly */
+.foot {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+}

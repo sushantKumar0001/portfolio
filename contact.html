@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us - Sushant Kumar Portfolio</title>
+    <link rel="stylesheet" href="Contact.css">
+</head>
+
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html"><img src="vector-real-estate-house-icon.jpg" width="40px"><br>Home</a></li>
+                
+                <li><a href="about.html"><img src="2602060.png" width="40px"><br>About</a></li>
+                <li><a href="services.html"><img src="ev-service.png" width="40px"><br>Services</a></li>
+                <li><a href="projects.html"><img src="2.jpg" width="40px"><br>Projects</a></li>
+                <li><a href="contact.html"><img src="contact us.png" width="40px"><br>Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <div>
+        <main>
+            <div class="hey">
+					
+					<ul >
+                        <li><h1>contact.</h1>
+                            <p >Get in touch with me via <br>social media or email.</p>
+                            </li>
+						<li><a id="cd" href="https://instagram.com/heyy_sushant_?igshid=MXAxY2V4NTV2NndzNQ=="><img src="instagram_logo.png" width="110px" target="_blank" ><br>Instagram</a></li>
+						<li><a id="cc" href="https://www.linkedin.com/in/sushant-kumar-a97b561b7"><img src="Linkedin-logo.png" width="150px" target="_blank"><br>LinkedIn</a></li>
+						
+					</ul>
+			</div>
+    <div class="container">
+       
+        <h1>Send me an email</h1>
+        <form id="contactForm">
+            <div class="form-group">
+                <p>Name: <span data-name="your-name"><input size="40" aria-required="true" aria-invalid="false" value="" type="text" name="your-name" placeholder="Enter your Name" /></span>
+                </p>
+            </div>
+
+            <div class="form-group">
+                <p>Email: <span  data-name="your-email"><input size="40" aria-required="true" aria-invalid="false" value="" type="email" name="your-email" placeholder="Enter your Email-ID"/></span>
+                </p>
+            </div>
+
+            <div class="form-group">
+                <p>Message: <span  data-name="your-message"><textarea cols="40" rows="10"  aria-required="true" aria-invalid="false" name="your-message" placeholder="Please write your Message"></textarea></span>
+                </p>
+            </div>
+            <p ><button  type="submit" value="Send email" >Submit</button>
+            </p>
+        </div>       
+        </form>
+        </main>
+    </div>
+    <footer>
+        <div class="footer">
+            <div class="footer-frist">
+                <h2>Aman Kumar Developer Portfolio</h2>
+            </div>
+            <div class="footer-second">
+                <H3>Instagram</H3>
+                <a href="https://instagram.com/_sah_aman_?igshid=OGQ5ZDc2ODk2ZA=="><img src="instagram_logo.png" width="50px"></a>
+            </div>
+            <div class="footer-third">
+                <h3>Gmail</h3>
+                <a href="amanmjh10@gmail.com"><img src="email-logo-png-us-4.png" width="50px"></a>
+            </div>
+            <div class="footer-fourth">
+                <h3>Linkedin</h3>
+                <a href="https://www.linkedin.com/in/aman-sah-a124401ba"><img src="Linkedin-logo.png" width="80px"></a>
+            </div>
+        </div>
+        <div class="footer-rights">
+            Copyright &#169; AmanKumarportfolio.com | All right reserved
+        </div>
+    </footer>
+    <footer class="foot">
+        <p>&copy; 2023 Aman Pvt Ltd</p>
+    </footer>
+
+    <script>
+        // JavaScript to handle form submission
+        const contactForm = document.getElementById('contactForm');
+
+        contactForm.addEventListener('submit', function (e) {
+            e.preventDefault();
+
+            // Get the form data
+            const formData = new FormData(contactForm);
+            const formDataObject = {};
+            formData.forEach((value, key) => {
+                formDataObject[key] = value;
+            });
+
+            // You can now send formDataObject to your server using AJAX or any other method
+            // For demonstration purposes, we'll just log the data to the console
+            console.log(formDataObject);
+
+            // Clear the form fields
+            contactForm.reset();
+        });
+    </script>
+</body>
+</html>
+

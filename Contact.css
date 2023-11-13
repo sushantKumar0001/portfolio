@@ -1,0 +1,226 @@
+/* Reset some default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    text-align: left;
+    padding: 20px 0;
+}
+#ss{
+    border:solid rgb(195, 12, 12);
+    box-sizing: content-box;
+    margin-left: 500px;
+    height: auto;
+    border-radius: 50%;
+}
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+nav ul li {
+    display: inline-block;
+    text-align: center;
+    margin: 5px; 
+    padding: 0px 20px 0px 20px;
+  
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 1.2rem;
+    transition: color 0.3s;
+}
+
+nav ul li a:hover {
+    color: #007BFF;
+}
+.hey{
+    text-align: left;
+    background-color: #c1e1e6;
+    box-sizing: border-box;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    padding: 20px;
+    margin: 20px;
+    display: inline-block;
+}
+.hey ul{
+    list-style-type: none;
+    padding: 0;
+}
+.hey ul li{
+    
+    display: inline-block;
+    text-align: center;
+}
+.hey h1{
+    color: rgb(62, 30, 165);
+    padding-left: 150px;
+    font-size: 90px;
+    margin-right: 520px;
+}
+.hey p{
+    color: rgb(99, 85, 180);
+    padding-left: 150px;
+    font-size: 40px;
+    margin-right: 520px;
+}
+
+#cd{
+    margin-left: 0px;
+}
+#cc{
+    margin-left: 20px;
+}
+
+.main {
+    display: flex;
+    background-color: #c1e1e6;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    padding: 20px;
+    margin: 20px;
+}
+/*.container {
+    max-width: 600px;
+    margin: 0 auto;
+    
+}
+*/
+.container{
+    text-align: left;
+    background-color: #c1e1e6;
+    box-sizing: border-box;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    padding: 20px;
+    margin: 20px;
+}
+h1 {
+    font-size: 32px;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+label {
+    font-weight: bold;
+    display: block;
+    margin-bottom: 5px;
+    color: #555;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    font-size: 16px;
+    color: #333;
+}
+
+textarea {
+    height: 150px;
+}
+
+button[type="submit"] {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 3px;
+    transition: background-color 0.3s; /* Smooth hover effect */
+}
+
+button[type="submit"]:hover {
+    background-color: #0056b3;
+}
+
+.left {
+    font-size: 1.5rem;
+    color: white;
+}
+
+/* Background image styles */
+.container img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 20px;
+}
+
+footer {
+    background-color: #e4f3ce;
+    padding: 23px;
+
+
+}
+.footer h3 {
+    color: rgb(126, 191, 163);
+}
+.footer {
+
+    display: flex;
+    padding: 23px 122;
+    justify-content: space-evenly;
+
+
+}
+
+.footer ul {
+    list-style: none;
+}
+
+.footer>div {
+    width: 223px;
+}
+
+footer .footer-rights {
+    text-align: center;
+    color: rgb(200, 84, 84);
+    padding: 12px 0;
+}
+
+.footer-second a {
+    color: rgb(64, 42, 176);
+}
+.footer-third p {
+    color: rgb(64, 42, 176);
+}
+
+.footer-fourth a {
+    color: rgb(76, 53, 168);
+}
+/* Add styles for the About and Contact sections similarly */
+.foot {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+}

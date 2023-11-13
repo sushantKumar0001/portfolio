@@ -1,0 +1,139 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+header {
+    background-color: #333;
+    color: #fff;
+    text-align: left;
+    padding: 20px 0;
+}
+#ss{
+    border:solid rgb(195, 12, 12);
+    box-sizing: content-box;
+    margin-left: 500px;
+    height: auto;
+    border-radius: 50%;
+}
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+   
+    display: inline-block;
+    text-align: center;
+    margin: 5px; 
+    padding: 0px 20px 0px 20px;
+  
+}
+
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 1.2rem;
+    transition: color 0.3s;
+}
+
+nav ul li a:hover {
+    color: #007BFF;
+}
+.container {
+    max-width: auto;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #eaf8f8; /* Light blue */
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.services {
+    text-align: center;
+    margin-top: 50px;
+}
+
+.service-item {
+    margin-bottom: 40px;
+    padding: 20px;
+    background-color: #c1e1e6;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+h1 {
+    color: #333;
+}
+
+h2 {
+    color: #3f1a84; /* Teal */
+}
+
+p {
+    color: #666;
+}
+
+
+.left {
+    font-size: 1.5rem;
+    color: white;
+}
+
+footer {
+    background-color: #e4f3ce;
+    padding: 23px;
+
+
+}
+.footer h3 {
+    color: rgb(126, 191, 163);
+}
+.footer {
+
+    display: flex;
+    padding: 23px 122;
+    justify-content: space-evenly;
+
+
+}
+
+.footer ul {
+    list-style: none;
+}
+
+.footer>div {
+    width: 223px;
+}
+
+footer .footer-rights {
+    text-align: center;
+    color: rgb(200, 84, 84);
+    padding: 12px 0;
+}
+
+.footer-second a {
+    color: rgb(64, 42, 176);
+}
+.footer-third p {
+    color: rgb(64, 42, 176);
+}
+
+.footer-fourth a {
+    color: rgb(76, 53, 168);
+}
+/* Add styles for the About and Contact sections similarly */
+.foot {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+}
